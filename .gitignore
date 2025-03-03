@@ -1,1 +1,15 @@
+# Ignorar a pasta de build
 target/
+
+# Ignorar arquivos de debug
+debug/
+
+# Ignorar arquivos de dependências baixadas
+.cargo/
+
+# Ignorar arquivos do editor/IDE (se estiver usando algum)
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
